@@ -2,11 +2,11 @@
 nixos configuration
 
 # 2.How to use 
-(1).Change hostname to ni
+(1)Change hostname to ni
 ```
 sudo echo "ni" > /etc/hostname
 ```
-(2).Build
+(2)Build
 ```
 cd /etc/nixos
 sudo nixos-rebuild switch --flake .#ni
