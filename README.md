@@ -6,7 +6,7 @@ nixos configuration
 ```
 sudo echo "ni" > /etc/hostname
 ```
-(2)Use your hardware-configuration.nix replace nixos/hardware-configuration.nix
+(2)Use your hardware-configuration.nix replace /etc/nixos/hardware-configuration.nix
 
 (3)Build
 ```
