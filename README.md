@@ -6,7 +6,9 @@ nixos configuration
 ```
 sudo echo "ni" > /etc/hostname
 ```
-(2)Build
+(2)Use your hardware-configuration.nix replace nixos/hardware-configuration.nix
+
+(3)Build
 ```
 cd /etc/nixos
 sudo nixos-rebuild switch --flake .#ni
